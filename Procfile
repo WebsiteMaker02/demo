@@ -1,0 +1,1 @@
+web: gunicorn swastiproj.wsgi --log-file -
