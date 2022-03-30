@@ -18,13 +18,13 @@ comtypes
 cycler
 cytoolz
 dask
+django
 entrypoints
 fonttools
 gunicorn
 inflection
 llvmlite
 locket
-mccabe
 mkl-fft
 mkl-service
 mpmath
