@@ -15,9 +15,6 @@ certifi
 click
 clyent
 comtypes
-conda-build
-conda-verify
-conda
 cycler
 cytoolz
 dask
