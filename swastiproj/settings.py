@@ -128,3 +128,5 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     print(BASE_DIR / "static")
 ]
+
+STATIC_ROOT = "/var/www/example/static/"
