@@ -2,7 +2,6 @@ Pillow
 PyYAML
 Sphinx
 TBB
-anaconda-navigator
 appdirs
 argh
 asgiref
