@@ -27,7 +27,7 @@ SECRET_KEY = 'ud(b(c7jmj=tyv*9meo9v#n5uc!-#h=hrl6fi$l(c#3p8_=a6a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['swasti.herokuapp.com']
 
 
 # Application definition
