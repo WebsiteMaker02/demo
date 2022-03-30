@@ -24,4 +24,5 @@ fonttools
 gunicorn
 inflection
 llvmlite
+whitenoise
 
