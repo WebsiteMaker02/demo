@@ -25,4 +25,5 @@ gunicorn
 inflection
 llvmlite
 whitenoise
+razorpay
 
