@@ -18,10 +18,13 @@ from django.urls import path
 
 from django.contrib import admin
 from django.urls import path
-from swastiapp.views import index
+from swastiapp.views import index,payment,success
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index,name="index")
-
+    path('index/', index,name="index"),
+    path('index1/', payment, name="payment"),
+    path('success/',success, name="success"),
+    path('index1/success/',success, name="success"),
+    path('', payment, name="payment")
 ]
