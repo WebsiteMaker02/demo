@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponseRedirect
 import razorpay
 
 
@@ -22,7 +22,7 @@ def payment(request):
             }
         }
         client.order.create(data=DATA)
-    return render(request, "index1.html")
+    return HttpResponseRedirect("https://rzp.io/l/VIKcsSE")
 
 
 def success(request):
